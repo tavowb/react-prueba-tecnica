@@ -1,0 +1,26 @@
+body{
+    background: rgb(55,225,255);
+    background: radial-gradient(circle, rgba(55,225,255,1) 0%, rgba(63,94,251,1) 64%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    max-width: 800px;
+    max-height: 800px;
+    margin: 0 auto;
+    font-family: system-ui;    
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+    place-items: start;
+    gap: 2rem;
+    
+}
+
+section img{
+    border-radius: 100px;
+    max-width: 320px;
+}
